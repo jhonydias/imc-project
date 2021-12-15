@@ -26,7 +26,7 @@ form.addEventListener('submit', function(e) {
             msg1 = `De acordo com a Organização Mundial da Saúde, seu IMC está acima do recomendado para a sua altura. Para atingir um valor de IMC normal, você precisa emagrecer <strong>${pesoIdeal}</strong> kg.`
         }
         if(imc < 18.5) {
-            msg1 = `De acordo com a Organização Mundial da Saúde, seu IMC está abaixo do recomendado para a sua altura. Para atingir um valor de IMC normal,Você precisa ganhar ${pesoIdeal} kg para entrar na faixa de peso normal.`   
+            msg1 = `De acordo com a Organização Mundial da Saúde, seu IMC está abaixo do recomendado para a sua altura. Para atingir um valor de IMC normal, você precisa ganhar <strong>${pesoIdeal}</strong> kg para entrar na faixa de peso normal.`   
         }
         if(imc>18.5 && imc<=24.9){
             msg1 = `Parabéns! De acordo com a Organização Mundial da Saúde, seu IMC é considerado normal para a sua altura.`

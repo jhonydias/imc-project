@@ -53,6 +53,7 @@ form button {
   height: 50px;
   cursor: pointer;
   margin-top: 30px;
+  border-radius: 5px
 }
 
 form button:hover {
@@ -62,7 +63,11 @@ form button:hover {
 .paragrafo-resultado, .bad {
   background-color: rgb(125, 228, 99);
   padding: 10px 20px;
+  border-radius: 5px;
 }
 .bad{
   background-color:rgb(212, 75, 94);
+}
+.resultado{
+
 }
