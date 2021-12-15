@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu imc</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Vamos calcular o seu IMC?</h1>
+   <form action = "/" id="formulario" method = "POST">
+     <label for="peso">Peso (ex: 68.7)</label>
+     <input type="text" id="peso" name="peso" placeholder="Quilos"></input>
+     <label for="altura">Altura (ex: 1.78)</label>
+     <input type="text" id="altura" name="altura" placeholder="Metros"></input>
+     <button type="submit">Enviar</button>
+   </form>
+   <div id="resultado"></div>
+   <div id="textIMC"></div>
+   <div>
+     <h2>Como é calculado?</h2>
+     <p>O IMC é a relação entre peso e altura e o cálculo é feito de acordo com a fórmula:</p>
+     <p></p>
+     <p><strong>IMC = peso / (altura x altura)</strong></p>
+     <p></p>
+     <p>O peso deve estar em kg e a altura em metros, e o resultado é dado em kg/m2. Depois de obter o resultado, é possível verificar em que faixa o IMC se encontra, podendo indicar:</p>
+     <p></p>
+     <p>
+       <li>
+        <b>Magreza</b>, quando o resultado é menor que 18,5 kg/m<sup>2</sup>;
+       </li>
+       <li>
+         <b>Normal</b>, quando o resultado está entre 18,5 e 24,9 kg/m<sup>2</sup>
+       </li>
+       <li>
+         <b>Sobrepeso</b>, quando o resultado está entre 24,9 e 30 kg/m<sup>2</sup>
+       </li>
+       <li>
+         <b>Obesidade</b>, quando o resultado é maior que 30 kg/m<sup>2</sup>
+       </li>
+     </p>
+     <p></p>
+     <p>Assim, de acordo com o resultado do IMC é possível também saber se existe algum risco de desenvolver doenças. Isto porque quanto maior é o valor do IMC, maior é a quantidade de gordura acumulada no corpo e maior é o risco da pessoa ter doenças como pressão alta, diabetes e doenças cardíacas.</p>
+  
+  </div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
